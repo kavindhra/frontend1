@@ -4,7 +4,7 @@ import axios from 'axios';
   Base URL of backend API
   All requests will start with this URL
 */
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'http://13.233.21.4:5000/api';
 
 /*
   Axios instance configuration
@@ -53,3 +53,4 @@ export const productAPI = {
 };
 
 export default api;
+
