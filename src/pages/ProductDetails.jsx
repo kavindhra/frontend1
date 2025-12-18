@@ -65,7 +65,7 @@ function ProductDetails() {
             <h1>{product.name}</h1>
 
             <div className="details-price">
-              <h2>${product.price}</h2>
+              <h2>₹{product.price}</h2>
             </div>
 
             <div className="details-category">

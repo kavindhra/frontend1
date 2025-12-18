@@ -58,7 +58,7 @@ function Cart() {
             <h2>Order Summary</h2>
             <div className="summary-row">
               <span>Subtotal:</span>
-              <span>{getTotalPrice()}</span>
+              <span>₹{getTotalPrice()}</span>
             </div>
             <div className="summary-row">
               <span>Shipping:</span>
@@ -66,11 +66,11 @@ function Cart() {
             </div>
             <div className="summary-row">
               <span>Tax:</span>
-              <span>{(getTotalPrice() * 0.1).toFixed(2)}</span>
+              <span>₹{(getTotalPrice() * 0.1).toFixed(2)}</span>
             </div>
             <div className="summary-row total">
               <span>Total:</span>
-              <span>{(getTotalPrice() * 1.1).toFixed(2)}</span>
+              <span>₹{(getTotalPrice() * 1.1).toFixed(2)}</span>
             </div>
           </div>
         </div>
