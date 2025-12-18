@@ -7,7 +7,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
